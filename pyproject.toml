@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jitsu3333-asr_jd344"
+name = "jitsu3333-preference_pair_noise_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出语音识别算法工程师·偏好数据的成对噪声上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://jitsu3333.github.io"
-Repository = "https://github.com/jitsu3333/asr_jd344"
-Issues = "https://github.com/jitsu3333/asr_jd344/issues"
+Repository = "https://github.com/jitsu3333/preference_pair_noise_count_trace"
+Issues = "https://github.com/jitsu3333/preference_pair_noise_count_trace/issues"
 
 [project.scripts]
-asr_jd344 = "asr_jd344:main"
+preference_pair_noise_count_trace = "preference_pair_noise_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["asr_jd344"]
+py-modules = ["preference_pair_noise_count_trace"]
